@@ -1,0 +1,443 @@
+.container3 {
+  max-width: 1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+/*Clínica Uninassau */
+.clnc {
+  position: absolute;
+  top: 3%;
+  right: 30%;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 45px;
+  color: rgb(19, 100, 198);
+}
+
+/*Área do paciente*/
+.paciente {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  padding: 10px 20px;
+  width: 50%;
+  box-sizing: border-box;
+  z-index: 1000;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(19, 100, 198);
+}
+
+/*Lista da navbar*/
+.agendar-atendimento{
+  position: absolute;   
+  top: 22%;            
+  left: 80%;         
+  padding: 10px 20px; 
+  box-sizing: border-box; 
+  z-index: 1000;     
+  width: 25%;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+  background-color: rgb(19, 100, 198);
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  transition: all 0.3 ease;
+  animation: mover 2s ease-out;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 18%;
+  right: 15%;
+  font-size: 18px;
+  width: 70%;
+  align-items: center;
+}
+
+li {
+  right: 30;
+  padding: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(19, 100, 198);
+}
+
+/*Título principal*/
+.titulo-pg-inicial {
+  color: rgb(19, 100, 198); 
+  top: 45%;
+  font-size: 50px;
+  position: absolute;
+  right: 2%;
+  width: 90%;
+  text-align: left;
+  font-style: italic;
+}
+
+/*Texto abaixo do título principa*/
+.text {
+  font-size: 20px;
+  width: 40%;
+  padding: 15px;
+  position: absolute;
+  margin-top: 30%;
+  right: 33%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-style: italic ;
+  color: rgb(19, 100, 198);
+}
+
+/*icones*/
+.icones {
+  position: relative;
+  top: -2%;
+  right: 13px;
+  color: rgb(19, 100, 198);
+  font-size: 20px;
+}
+
+
+
+/*imagem do dente*/
+.Dente-logo {
+  width: 200px;
+  height: 200px;
+  margin-top: 20%;
+  margin-left: 15%;
+  position: absolute;
+}
+
+/*imagem do cerebro*/
+.Cerebro-logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+
+
+/*Carrosseis*/
+
+.container-carrosseis {
+  width: 85%;
+  margin-top: 45%;
+  position: absolute;
+  left: 7.5%;
+  
+}
+
+.container-carrosseis .carousel-item img {
+  max-height: 450px;
+  object-fit: cover;
+  
+}
+
+.carrossel-texto {
+  font-size: 18px;
+  font-style: italic;
+  color: #2cdce5;
+}
+
+.container-carrosseis p{
+color: rgb(19, 100, 198);
+}
+.container-carrosseis h5{
+  color: rgb(19, 100, 198);
+}
+
+/*Odonto*/
+.Serviço-Odonto {
+  width: 400px;
+  height: 600px;
+  background-image:   linear-gradient(to bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.9)), url('../img/medica-odonto.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 50%;
+  margin-top: 96%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.lista-Odonto {
+  margin-top: -10%;
+  display: inline-block;
+  left:  8%;
+  position: absolute;
+}
+
+.container-servicos .lista-Odonto li {
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+.button-odonto {
+  width: 370px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  background-color:  transparent;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  transition: all 0.3 ease;
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style:  bold;
+  box-sizing: border-box; 
+  z-index: 1000; 
+  color: #2cdce5;
+  margin-left: -27.5%;
+}
+
+/*Serviços disponíveis*/
+.serviços-disponiveis h1{
+  font-style: italic ;
+  color: rgb(19, 100, 198);
+  top: 180%;
+  right: 400px;
+  position: absolute;
+  width: 100%;
+}
+
+.serviços-disponiveis p{
+  position: absolute;
+  top:190%;
+  left: 12%;
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(19, 100, 198);
+}
+
+/*Psicologia*/
+.Serviço-Psico{
+  width: 400px;
+  height: 600px;
+  background-image:   linear-gradient(to bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.9)), url('../img/psicologa.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 55%;
+  margin-top: 145%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.lista-psico{
+  margin-top: -10%;
+  display: inline-block;
+  left:  8%;
+  position: absolute;
+}
+
+.container-servicos .lista-psico li {
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+.button-psico{
+  width: 370px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  background-color:  transparent;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  transition: all 0.3 ease;
+  text-align: left;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style:  bold;
+  box-sizing: border-box; 
+  z-index: 1000; 
+  color: #2cdce5;
+  margin-left: -27.5%;
+}
+
+/*Clinica Escola Integrada */
+
+.clinica-escola{
+  background:  rgb(19, 100, 198);  
+  margin: 0;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 420%;
+  right: 0%;
+  font-size: 18px;
+  width: 100%;
+  align-items: center;
+  font-size: 25px;
+  height: 200px;
+  color: white;
+  position: absolute;
+}
+
+.clinica-escola-text{
+  text-align: left;
+  padding-right: 15%;
+  font-style: italic;
+}
+
+.clinica-escola-logo img{
+  border-radius: 50%;
+  width: 150px;
+  margin-top: -4%;
+  margin-left: -10%;
+  position: absolute;
+}
+
+/*Sobre nós */
+
+.sobre-nos .container-about{
+  display: flex;
+  align-items: center;
+  margin-top: 220%;
+ 
+}
+.sobre-nos img{
+  width: 600px;
+  height: 600px;
+  border-radius: 10%;
+  margin-left: 10%;
+}
+
+.sobre-nos .about-text{
+  width: 50%;
+  margin-left: 10%;
+  font-size: 26px;
+  margin-top: -15%;
+  font-style: italic;
+  color: rgb(19, 100, 198); 
+}
+
+.sobre-nos .endereco-clinica{
+  margin-top: -10%;
+  margin-left: 50%;
+  font-size: 26px;
+  font-style: italic;
+   color: rgb(19, 100, 198);
+}
+
+.sobre-nos .endereco-clinica a{
+  text-decoration: none;
+  color:  rgb(19, 100, 198);
+
+}
+ .sobre-nos  .endereco-clinica a:hover {
+     color: #2cdce5;
+   }
+
+/*FOOTER -> RODAPÉ */
+footer .clinica-footer{
+  margin-top: -10%;
+  text-align: left;
+  margin-right: 70%;
+  color: white;
+  width: 25%;
+}
+footer {
+  margin: 0;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 15%;
+  font-size: 18px;
+  width: 100%;
+  align-items: center;
+  background:  rgb(19, 100, 198);
+  height: 50%;
+}
+
+footer .Links {
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  font-size: 18px;
+  align-items: center;
+  
+}
+
+footer .Links li{
+  margin-right: 40%;
+  color: white;
+  padding: 15px ;
+}
+
+footer .Links h2{
+  font-size: 20px;
+  color: white;
+  margin-right: 40%;
+}
+
+
+footer .segundo-Links {
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 2%;
+  left: 15%;
+  font-size: 18px;
+  align-items: center;
+  
+}
+
+footer .segundo-Links li{
+  margin-right: 50%;
+  color: white;
+  padding: 15px ;
+}
+footer .segundo-Links h2{
+  font-size: 20px;
+  color: white;
+  margin-right: 50%;
+  
+}
+
+footer .terceiro-Links{
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  font-size: 18px;
+  align-items: center;
+  color: white;
+}

@@ -1,0 +1,13 @@
+#card-dentistica{
+    margin-top: -86%;
+    height: 600px;
+    left: 550px;
+    width: 400px;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+.imagem-dentistica{
+    height: 350px;
+}

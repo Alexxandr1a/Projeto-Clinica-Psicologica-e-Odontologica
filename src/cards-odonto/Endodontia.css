@@ -1,0 +1,14 @@
+#card-endodontia{
+    top: -15%;
+    height: 650px;
+    left: 550px;
+    width: 400px;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.imagem-endodontia{
+    height: 350px;
+}

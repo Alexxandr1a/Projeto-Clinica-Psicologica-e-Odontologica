@@ -1,0 +1,14 @@
+#card-infantil{
+    margin-top: -60%;
+    height: 650px;
+    width: 400px;
+    right: 150%;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.imagem-infantil{
+    height: 350px;
+}

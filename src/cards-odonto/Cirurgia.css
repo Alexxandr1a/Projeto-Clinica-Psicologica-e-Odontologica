@@ -1,0 +1,14 @@
+#card-cirurgia{
+    margin-top: -60%;
+    height: 700px;
+    width: 400px;
+    left: 550px;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.imagem-cirurgia{
+    height: 350px;
+}

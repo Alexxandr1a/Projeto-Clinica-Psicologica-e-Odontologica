@@ -1,0 +1,197 @@
+
+   /*///////////////////////////////////////////////////*/
+   .ClinicaNassau {
+     position: fixed;
+     top: 15%;
+     right: 26%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     font-size: 70px;
+   
+   }
+   
+   /*////////////////////////////////////////////////////////*/
+   
+   .Nassau {
+     width: 80px;
+     height: auto;
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     margin-left: 44%;
+   }
+   
+   /*///////////////////////////////////////////////////////////*/
+   
+   .dente {
+     width: 70px;
+     height: 70px;
+     display: block;
+     position: absolute;
+     top: 35%;
+     left: 0;
+     margin-left: 10%;
+    
+   }
+   
+   .cerebro {
+     width: 100px;
+     height: 100px;
+     display: block;
+     position: absolute;
+     top: 32%;
+     left: 0;
+     margin-left: 20%;
+    
+   }
+   
+   /*//////////////////////////////////////////////////////////////////////*/
+   
+   .psicologia {
+     position: absolute;
+     top: 49%;
+     left: 20px;
+     margin-left: 18.5%;
+     font-size: 25px;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     animation: mover 2s ease-out;
+   }
+   
+   .odontologia {
+     position: absolute;
+     top: 49%;
+     right: 51%;
+     margin-right: 33%;
+     font-size: 25px;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     animation: mover 2s ease-out;
+   }
+   
+   /*  ////////////////////////////////////////////////////////////////////////////*/
+   
+   .EntreEmContato {
+     position: fixed;
+     top: 10%;
+     left: 26%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     font-size: 50px;
+   }
+   
+   /*/////////////////////////////////////////////////////////////////////////////////*/
+   .Email {
+     position: fixed;
+     top: 20%;
+     left: 20%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     font-size: 30px;
+     
+   }
+   
+   .gmail {
+     position: fixed;
+     top: 26%;
+     left: 24%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: #080a0a;
+     font-size: 20px;
+  
+   }
+   
+   /*/////////////////////////////////////////////////////////////////////////////////////////*/
+   
+   .Fone {
+     position: fixed;
+     top: 32%;
+     left: 20%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     font-size: 30px;
+   
+   }
+   
+   .numero {
+     position: fixed;
+     top: 38%;
+     left: 20%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: #080a0a;
+     font-size: 20px;
+   }
+   /*////////////////////////////////////////////////////////////////////*/
+   .LocalDaClinica {
+     position: fixed;
+     top: 50%;
+     left: 23%;
+     padding: 10px 20px;
+     width: 100%;
+     box-sizing: border-box;
+     z-index: 1000;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     color: rgb(19, 100, 198);
+     font-size: 30px;
+   }
+   
+   .link {
+     position: absolute;  
+     top: 60%;              
+     left: 70px; 
+    margin-left: 60%;
+    font-size: 20px;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: italic;
+     text-decoration: none;
+     color: rgb(19, 100, 198);
+   }
+   
+  
+   a:hover {
+     color: rgb(75, 240, 232);
+   }

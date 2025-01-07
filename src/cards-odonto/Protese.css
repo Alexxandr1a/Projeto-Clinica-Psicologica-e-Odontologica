@@ -1,0 +1,14 @@
+#card-protese{
+    top: -15%;
+    height: 660px;
+    left: 550px;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    border-radius: 10px;
+    font-style: italic;
+    width: 400px;
+}
+
+.imagem-protese{
+    height: 350px;
+}

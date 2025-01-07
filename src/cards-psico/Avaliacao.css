@@ -1,0 +1,14 @@
+#card-avaliacao{
+    top: -15%;
+    height: 680px;
+    width: 400px;
+    right: 150%;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.imagem-avaliacao{
+    height: 350px;
+}

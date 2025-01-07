@@ -1,0 +1,14 @@
+#card-individual{
+    margin-top: -87%;
+    height: 680px;
+    width: 400px;
+    right: 150%;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.imagem-individual{
+    height: 350px;
+}

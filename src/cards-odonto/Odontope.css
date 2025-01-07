@@ -1,0 +1,14 @@
+#card-odontope{
+    top: -15%;
+    height: 625px;
+    left: 550px;
+    width: 400px;
+    position: absolute;
+    color: rgb(19, 100, 198);
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.imagem-odontope{
+    height: 350px;
+}

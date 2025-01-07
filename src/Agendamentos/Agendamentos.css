@@ -1,0 +1,89 @@
+.button-Odontologia{
+    position: absolute;   
+    top: 55%;            
+    right: 35%;         
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    z-index: 1000;     
+    width: 35%;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    background-color:rgb(19, 100, 198);
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+    animation: mover 2s ease-out;
+    text-align: center;
+}
+
+.button-Psicologia{
+    position: absolute;   
+    top: 70%;            
+    right: 35%;         
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    z-index: 1000;     
+    width: 35%;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    background-color:rgb(19, 100, 198);
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+    animation: mover 2s ease-out;
+    text-align: center;
+}
+
+.Agendamento-logo {
+  img{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 5%;
+    left: 43%;
+    position: absolute;
+  }
+  p{
+    top: 45%;
+    position: absolute;
+    right: 45%;
+    font-size: 25px;
+    color: black;
+  }
+  h4{
+    top: 35%;
+    position: absolute;
+    left: 37.5%;
+    font-size: 25px;
+    color: black;
+  }
+}
+
+  .Agnd-Psico img{
+    width: 60px;
+    top: 71%;
+    right: 72%;
+    position: absolute;
+  }
+
+  .Agnd-Odont{
+
+    img{
+      width: 60px;
+      top: 55%;
+      right: 72%;
+      position: absolute;
+    }
+
+  }
